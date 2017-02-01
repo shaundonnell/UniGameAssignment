@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GUI Classes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GUI Classes\WinGDI">
+      <UniqueIdentifier>{cb2dfc8f-fa5e-4d29-b602-2a55fca33284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI Classes\Base GUI Classes">
+      <UniqueIdentifier>{05ef35a5-b2c7-4d21-ae74-a0db8de04503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Components\Utility">
+      <UniqueIdentifier>{8b85879f-10ab-444a-bef9-197407a6cdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Characters">
+      <UniqueIdentifier>{38f8a465-a76c-43ee-aad0-e2c1bb59dfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\Weapons">
+      <UniqueIdentifier>{adc10088-b119-476d-9b0a-f48db26a8e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\StaticObjects">
+      <UniqueIdentifier>{a33643dd-7a5a-4bd2-b373-d3c09e0c3b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Components\BaseClasses">
+      <UniqueIdentifier>{523ffd3e-931a-413a-9184-73e6768d2deb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Scene.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WinCanvas.h">
+      <Filter>GUI Classes\WinGDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Geometry.h">
+      <Filter>Game Components\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\math_t.h">
+      <Filter>Game Components\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameTypes.h">
+      <Filter>Game Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WinTexture.h">
+      <Filter>GUI Classes\WinGDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Canvas.h">
+      <Filter>GUI Classes\Base GUI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\InputState.h">
+      <Filter>GUI Classes\Base GUI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Texture.h">
+      <Filter>GUI Classes\Base GUI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Game Components\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Game Components\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Game Components\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game Components\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseClasses.h">
+      <Filter>Game Components\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Components\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>GUI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPickup.h">
+      <Filter>Game Components\StaticObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Game Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinCanvas.cpp">
+      <Filter>GUI Classes\WinGDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinTexture.cpp">
+      <Filter>GUI Classes\WinGDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputState.cpp">
+      <Filter>GUI Classes\Base GUI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Game Components\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Components\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Components\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Game Components\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Game Components\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game Components\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BaseClasses.cpp">
+      <Filter>Game Components\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Components\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPickup.cpp">
+      <Filter>Game Components\StaticObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\Lightning.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\heart.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\Level.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\Lose.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\Win.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resource\You.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Level01.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Level02.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Level03.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Level04.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Level05.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
